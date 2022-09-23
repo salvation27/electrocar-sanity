@@ -35,7 +35,7 @@ const Shipping = () => {
     setValue("city", shippingAddress.city);
     setValue("postalCode", shippingAddress.postalCode);
     setValue("country", shippingAddress.country);
-  }, [router, userInfo, setValue, shippingAddress]);
+  }, [router, userInfo, setValue, shippingAddress, enqueueSnackbar]);
 
   const submitHandler = ({ fullName, adress, city, postalCode, country }) => {
     dispatch({

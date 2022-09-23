@@ -1,8 +1,8 @@
-import { BestProducts, Categ, ProductItem, Sale, SliderMainPage, TypographyEl } from "../componets";
+import { BestProducts, Categ, Sale, SliderMainPage } from "../componets";
 import Layout from "../componets/Layout";
-import { useEffect, useState } from "react";
-import {client} from "../utils/client";
-import { Alert, CircularProgress } from "@mui/material";
+// import { useEffect, useState } from "react";
+// import {client} from "../utils/client";
+// import { Alert, CircularProgress } from "@mui/material";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import SaleItem from "../componets/SaleItem";

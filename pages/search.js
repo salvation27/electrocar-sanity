@@ -6,7 +6,7 @@ import {
   List,
   ListItem,
   MenuItem,
-  Rating,
+  // Rating,
   Select,
   Typography,
 } from "@mui/material";

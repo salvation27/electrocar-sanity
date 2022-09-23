@@ -1,16 +1,13 @@
 import React, { useContext, useEffect, useState } from "react";
-import { useForm } from "react-hook-form";
+// import { useForm } from "react-hook-form";
 import { CheckoutWizard, Layout } from "../componets";
 import jsCookie from "js-cookie";
 import {
   Button,
   FormControl,
   FormControlLabel,
-  List,
-  ListItem,
   Radio,
   RadioGroup,
-  Typography,
 } from "@mui/material";
 import { useRouter } from "next/router";
 import { useSnackbar } from "notistack";

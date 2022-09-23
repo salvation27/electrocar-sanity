@@ -41,7 +41,7 @@ brend->{name}
 
   useEffect(() => {
     fetchData();
-  }, []);
+  }, [fetchData]);
 
 
 
