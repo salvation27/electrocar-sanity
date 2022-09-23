@@ -45,8 +45,7 @@ const OrderPage = ({ params: { id: orderId } }) => {
   const router = useRouter()
 
   const { state:userInfo } = useContext(Store);
-  console.log("userInfo", userInfo);
-  console.log("userInfo.token", userInfo.userInfo.token);
+
 
   useEffect(() => {
     jsCookie.remove("cartItems");

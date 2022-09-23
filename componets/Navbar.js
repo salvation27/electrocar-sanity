@@ -101,9 +101,10 @@ const Navbar = ({ darkMode, darkModeChangeHandler }) => {
     jsCookie.remove('cartItems')
     jsCookie.remove("shippingAddress");
     jsCookie.remove("paymentMethod");
-    router.push('/')
+       router.push("/");
   }
-
+console.log("userInfo", userInfo);
+console.log("test77777");
   return (
     <div className="navbar flex">
       <div className="menu_categ">
