@@ -13,11 +13,11 @@ import {
 import { Box } from "@mui/system";
 import axios from "axios";
 import { useRouter } from "next/router";
-import { useSnackbar } from "notistack";
-import React, {  useContext, useEffect, useState } from "react";
+// import { useSnackbar } from "notistack";
+import React, {   useEffect, useState } from "react";
 import { Layout, ProductItem } from "../componets";
 import {client} from "../utils/client";
-import { Store } from "../utils/store";
+// import { Store } from "../utils/store";
 import classes from "../utils/classes";
 
 
